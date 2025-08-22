@@ -1,0 +1,36 @@
+# CODEOWNERS file for account-controller-974
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-test @Armor-test/unit-test @Armor-test/dept-security
+
+# Directory ownership
+/src/ @Armor-test/squad-performance @Armor-test/unit-test @Armor-test/team-reporting
+/models/ @Armor-test/team-logging @Armor-test/squad-database @Armor-test/squad-api
+/db/ @Armor-test/dept-automation @Armor-test/grp-search @Armor-test/squad-apps
+/spec/ @Armor-test/team-reporting @Armor-test/team-research @Armor-test/squad-product
+/security/ @Armor-test/dept-security @Armor-test/team-notifications @Armor-test/squad-research
+/test/ @Armor-test/squad-research @Armor-test/grp-reporting
+/views/ @Armor-test/team-reporting @Armor-test/squad-api
+/middleware/ @Armor-test/team-research @Armor-test/unit-cloud
+/deploy/ @Armor-test/squad-cache @Armor-test/squad-research @Armor-test/grp-payments
+/components/ @Armor-test/grp-search @Armor-test/dept-test
+/pkg/ @Armor-test/dept-notifications @Armor-test/squad-mobile
+/data/ @Armor-test/squad-search @Armor-test/dept-release @Armor-test/dept-reporting
+/docs/ @Armor-test/squad-performance @Armor-test/squad-cloud @Armor-test/dept-notifications
+
+# File type ownership
+*.css @Armor-test/dept-billing @Armor-test/dept-notifications
+*.kt @Armor-test/dept-api @Armor-test/grp-payments @Armor-test/unit-governance
+*.go @Armor-test/team-governance @Armor-test/team-reporting @Armor-test/squad-search
+*.ts @Armor-test/team-security @Armor-test/squad-mobile
+*.ini @Armor-test/dept-data @Armor-test/grp-ui
+*.json @Armor-test/squad-database @Armor-test/squad-qa @Armor-test/squad-search
+*.scss @Armor-test/dept-api @Armor-test/team-notifications
+*.properties @Armor-test/dept-test @Armor-test/unit-devops
+*.js @Armor-test/dept-test @Armor-test/squad-api
+*.gradle @Armor-test/unit-governance @Armor-test/unit-devops @Armor-test/team-reporting
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
